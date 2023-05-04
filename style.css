@@ -67,6 +67,7 @@ body{
     width: 650px;
     height: 100%;
     transition: 0.7s;
+    z-index: -1;
 }
 .img-hover:hover{
     background-color: #081b29;
