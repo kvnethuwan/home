@@ -1,0 +1,58 @@
+section{
+    min-height: 100vh;
+}
+.about{
+    background-color: #081b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutpage{
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+}
+.aboutpage h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.about-hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutpage .about-hover .about-pgraph{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #173b54;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+}
+.aboutpage .about-hover .about-pgraph p{
+    margin-bottom: 15px;
+}
+.aboutpage .about-hover .about-pgraph a{
+    align-self: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.aboutpage .about-hover .about-pgraph a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.aboutpage img{
+    margin-left: 50px;
+    width: 500px;
+}
