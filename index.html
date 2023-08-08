@@ -7,7 +7,9 @@
         <link rel="stylesheet" href="style4.css">
         <link rel="stylesheet" href="style5.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="icon" href="Icon 7.1.png">
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     </head>
     <body>
         <header class="header">
@@ -18,13 +20,31 @@
                 <a href="#services">Services</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#contact">Contact</a>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <span class="material-symbols-outlined" id="btn">
+                    menu
+                    </span>
+                <span class="material-symbols-outlined" id="cancel">
+                    close
+                    </span>
+            </label>
+            <div class="sidebar">
+                <a href="#home" class="active">Home</a>
+                <a href="#">Shortcuts</a>
+                <a href="#">Overviews</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
             </nav>
         </header>
         <main>
             <section id="home" class="home">
                 <div class="home-content">
                     <h1>Hi,I'm KV Nethuwan</h1>
-                    <h3>Frontend Developer</h3>
+                    <h3>A <span class="element"></span></h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem id debitis mollitia, atque consequatur recusandae. Quidem, quam impedit mollitia delectus dolorem itaque at error officiis alias culpa?</p>
                     <div class="btn-box">
                         <a href="#">Hire Me</a>
@@ -84,11 +104,11 @@
                 </div>
                 <div class="wrapper">
                     <div class="card-new">
-                        <img class="image" src="01.jpg">
+                        <img class="image" src="07.jpg">
                         <div class="info">
                             <h1>New Logo</h1>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto velit,ullam repellat</p>
-                            <a href="01.jpg" class="btn" download="01.jpg">Download</a>
+                            <a href="07.jpg" class="btn" download="07.jpg">Download</a>
                         </div>
                     </div>
             
@@ -102,11 +122,11 @@
                     </div>
             
                     <div class="card">
-                        <img class="image" src="03.png">
+                        <img class="image" src="01.jpg">
                         <div class="info">
-                            <h1>KV Creations</h1>
+                            <h1>Old Logo</h1>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto velit,ullam repellat</p>
-                            <a href="03.png" class="btn" download="03.zip">Download</a>
+                            <a href="01.jpg" class="btn" download="01.jpg">Download</a>
                         </div>
                     </div>
                     <div class="card">
@@ -159,8 +179,8 @@
                     <div id="contact" class="right-section">
                         <a href="index.html" class="logo">Nethuwan.</a>
                         <div class="contact-info">
-                            <p><span>Contact:</span> +9477 100 4426</p>
-                            <p><span>Email:</span> kvnethuwan2020@gmail.com</p>
+                            <p><a href="#"><span>Contact:</span> +9477 100 4426</a></p>
+                            <p><a href="#"><span>Email:</span> kvnethuwan2020@gmail.com</a></p>
                             <p><span>Address:</span> 128/D,Dehigaspa,Pitabeddara.</p>
                         </div>
                     </div>
@@ -190,6 +210,16 @@
                     }
                 }
             }
+        </script>
+        <script>
+            var typed = new Typed('.element', {
+            strings: ["Web Developer", "Graphic Designer","Youtuber"],
+            loop: true,
+            typeSpeed: 70,
+            backSpeed: 70,
+            backDelay: 1500
+            });
+    
         </script>
     </body>
 </html>
