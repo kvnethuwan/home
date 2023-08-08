@@ -101,7 +101,7 @@
 .right-section p{
     line-height: 30px;
 }
-.right-section p a{
+.right-section p .con-btn{
     text-decoration: none;
     color: #fff;
 }
