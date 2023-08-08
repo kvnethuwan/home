@@ -109,6 +109,9 @@
     color:#00abf0;
     cursor: pointer;
 }
+.right-section span{
+	color:#00abf0;
+}
 .contact-info{
     margin-top: 20px;
 }
