@@ -101,6 +101,10 @@
 .right-section p{
     line-height: 30px;
 }
+.right-section p a{
+    text-decoration: none;
+    color: #fff;
+}
 .copyright span,
 .right-section span{
     color:#00abf0;
